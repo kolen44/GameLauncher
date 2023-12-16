@@ -6,3 +6,8 @@
 	font-weight: 500;
 	color: #FEFEFE;
 }
+
+.badge.size__small{
+	font-size: 12px;
+	padding: 10px 12px;
+}

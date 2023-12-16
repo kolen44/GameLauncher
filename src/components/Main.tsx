@@ -8,6 +8,7 @@ import Discount from "../assets/discount.png"
 import Wallet from "../assets/wallet.png"
 import Backgrund from "../assets/lol.jpg"
 import GameCard from './GameCard/index'
+import Recommended from './Recommended/index'
 
 export default function Main(){
 	return(
@@ -45,8 +46,9 @@ export default function Main(){
       </aside>
       <div className='content'>
         <GameCard />
-
-        
+        <div className='content__recommended'>
+          <Recommended />
+        </div>
       </div>
     </main>		
 	)

@@ -53,3 +53,20 @@
 	font-weight: 700;
 	color: #FEFEFE;
 }
+
+.game-card.size__small .game-card__name{
+	font-size: 30px;
+}
+
+.game-card.size__small .game-card__tags{
+	margin-top: 18px;
+}
+
+.game-card.size__small{
+	min-height: 300px;
+	padding:35px 35px 20px;
+}
+
+.game-card.size__small .game-card__price{
+	font-size: 20px;
+}

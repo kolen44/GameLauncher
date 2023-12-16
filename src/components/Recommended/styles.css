@@ -1,0 +1,27 @@
+.recommended__header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.recommended__cards{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.recommended__header .title__text{
+	font-size: 24px;
+	font-weight: 700;
+	color: #FEFEFE;
+}
+
+.recommended__view-all{
+	font-weight: 700;
+	font-size: 18px;
+	border: none;
+	background: none;
+	color: #FEFEFE;
+	cursor: pointer;
+}
