@@ -6,11 +6,12 @@ import Store from "../assets/store.png"
 import Waitlist from "../assets/waitlist.png"
 import Discount from "../assets/discount.png"
 import Wallet from "../assets/wallet.png"
-import backgroundImage from "../assets/lol.jpg"
+import Backgrund from "../assets/lol.jpg"
+import GameCard from './GameCard/index'
 
 export default function Main(){
 	return(
-    <main className="main" style={{backgroundImage: `url{backgroundImage}`}}>
+    <main className="main" style={{backgroundImage: `url(${Backgrund})`}}>
       <aside className="sidebar">
         <h1 className='sidebar__title'>QHOF</h1>
         <div className="sidebar__divider"></div>
@@ -42,6 +43,11 @@ export default function Main(){
           </li>
         </ul>
       </aside>
+      <div className='content'>
+        <GameCard />
+
+        
+      </div>
     </main>		
 	)
 }

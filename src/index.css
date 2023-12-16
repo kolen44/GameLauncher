@@ -6,9 +6,17 @@
   list-style: none;
 }
 
+.content{
+  padding-top: 35px;
+}
+
 .main {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 52px;
+  padding-right: 52px;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url(./assets/lol.jpg);
   border-radius: 35px;
   overflow: hidden;
