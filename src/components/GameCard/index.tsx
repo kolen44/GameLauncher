@@ -12,7 +12,7 @@ export default function GameCard({size='big'}){
 				<span className='game-card__name'>Dota2</span>
 				<ul className='game-card__tags'>
 					{['Adventure','Pazzle','Platformer']
-					.map(text=><li className='tags__tag'><Badge size={size}>{text}</Badge></li>)}
+					.map(text=><li className='tags__tag' key={text}><Badge size={size}>{text}</Badge></li>)}
 				</ul>
 				</div>
 			

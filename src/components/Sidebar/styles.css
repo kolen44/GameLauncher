@@ -1,4 +1,7 @@
 .sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 416px;
   height: 100%;
   padding: 57px 53px 51px 51px;
@@ -41,6 +44,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
 }
 
 .item__icon{
@@ -50,4 +55,8 @@
 
 .menu__item.active .item__text{
   color: #FEFEFE;
+}
+
+.sidebar__chat-button{
+  -webkit-app-region: no-drag;
 }
