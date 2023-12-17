@@ -15,6 +15,10 @@
   margin-top: 20px;
 }
 
+.content__header{
+  margin-bottom: 32px;
+}
+
 .main {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -26,4 +30,3 @@
   border-radius: 35px;
   overflow: hidden;
 }
-

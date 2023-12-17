@@ -12,7 +12,9 @@ export default function Main(){
     <main className="main" style={{backgroundImage: `url(${Backgrund})`}}>
       <Sidebar />
       <div className='content'>
-        <Header />
+        <div className='content__header'>
+          <Header />
+        </div>
         <GameCard />
         <div className='content__recommended'>
           <Recommended />
