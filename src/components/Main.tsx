@@ -6,6 +6,7 @@ import GameCard from './GameCard/index'
 import Recommended from './Recommended/index'
 import Sidebar from './Sidebar/index'
 import Header from './Header/header'
+import Slider from './Slider/index'
 
 export default function Main(){
 	return(
@@ -15,7 +16,9 @@ export default function Main(){
         <div className='content__header'>
           <Header />
         </div>
-        <GameCard />
+        <div>
+          <Slider />
+        </div>
         <div className='content__recommended'>
           <Recommended />
         </div>

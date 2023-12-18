@@ -21,7 +21,7 @@
 
 .main {
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: max-content 64%;
   grid-gap: 52px;
   padding-right: 52px;
   width: 100%;
