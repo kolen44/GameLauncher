@@ -4,4 +4,5 @@
 	grid-gap: 17px;
 	justify-content: flex-end;
 	align-items: center;
+	position: absolute;
 }

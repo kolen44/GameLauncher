@@ -19,10 +19,10 @@ export default function Slider({children}){
 	      onSwiper={(swiper) => console.log(swiper)}
 	      className='swiper__slider__item'
 	    >
-	      <SwiperSlide className='swiper__slider__item'><GameCard /></SwiperSlide>
-	      <SwiperSlide className='swiper__slider__item'><GameCard /></SwiperSlide>
-	      <SwiperSlide className='swiper__slider__item'><GameCard /></SwiperSlide>
-	      <SwiperSlide className='swiper__slider__item'><GameCard /></SwiperSlide>
+	      <SwiperSlide ><GameCard /></SwiperSlide>
+	      <SwiperSlide ><GameCard /></SwiperSlide>
+	      <SwiperSlide ><GameCard /></SwiperSlide>
+	      <SwiperSlide ><GameCard /></SwiperSlide>
 	    </Swiper>
 	)
 }

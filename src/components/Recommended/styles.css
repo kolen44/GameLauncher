@@ -1,10 +1,14 @@
+.recommended{
+	overflow: auto;
+}
+
 .recommended__header{
 	display: flex;
 	justify-content: space-between;
 }
 
 .recommended__cards{
-	display: grid;
+	display: flex;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 50px;
 	width: 100%;
@@ -12,6 +16,7 @@
 }
 
 .recommended__header .title__text{
+	padding-top: 5px;
 	font-size: 24px;
 	font-weight: 700;
 	color: #FEFEFE;

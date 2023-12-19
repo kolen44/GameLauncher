@@ -9,6 +9,8 @@
 
 .content{
   padding-top: 35px;
+  width: 100%;
+  overflow: auto;
 }
 
 .content__recommended{
@@ -21,7 +23,7 @@
 
 .main {
   display: grid;
-  grid-template-columns: max-content 64%;
+  grid-template-columns: max-content 80%;
   grid-gap: 52px;
   padding-right: 52px;
   width: 100%;
@@ -29,4 +31,26 @@
   background: url(./assets/lol.jpg);
   border-radius: 35px;
   overflow: hidden;
+  padding-right: 52px;
+}
+
+.swiper{
+  height: inherit;
+}
+
+@media (max-width: 1220px) {
+  .content{
+    overflow: scroll;
+  }
+}
+
+.content__slider{
+  height: 500px;
+  padding-top: 30px;
+}
+
+@media (min-width: 1220px) {
+  .content__slider{
+    width: 100%;
+  }
 }

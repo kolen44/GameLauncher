@@ -4,10 +4,10 @@
 	justify-content: space-between;
 	align-items: flex-end;
 	padding: 35px;
-	height: 53.5%;
+	height: 100%;
 	border-radius: 10px;
 	box-shadow: 0 -183px 50px -35px rgba(0,0,0,.75) inset;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .game-card__background{
@@ -69,4 +69,19 @@
 
 .game-card.size__small .game-card__price{
 	font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .game-card.size__small{
+    width: 110%;
+    padding:15px 15px 0px;
+    display: flex;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1360px) {
+  .game-card.size__big{
+    width: 900px;
+  }
 }

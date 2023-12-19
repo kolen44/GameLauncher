@@ -16,8 +16,8 @@ export default function Main(){
         <div className='content__header'>
           <Header />
         </div>
-        <div>
-          <Slider />
+        <div  className='content__slider'>
+          <Slider className='swiper'/>
         </div>
         <div className='content__recommended'>
           <Recommended />
