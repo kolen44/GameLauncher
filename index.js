@@ -13,7 +13,7 @@ fetch("https://api.thecatapi.com/v1/images/search") .then(
     })
 
 app.get('/', (req, res) => {
-    res.send({ message: 'Hello WWW!' });
+    res.send({ message: 'Hello WWW' });
 });
 
 app.listen(3333, () => {
